@@ -1,0 +1,126 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{subfig}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{bbold}
+\usepackage{hyperref}
+%\usepackage{fourier}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor= black}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{animate} 
+\let\arrvec=\vec
+\renewcommand\vec{\mathbf}
+\newcommand{\0}{\vert 0 \rangle}
+\newcommand{\1}{\vert 1 \rangle}
+
+\usepackage{booktabs}
+\usepackage[left=20mm,right=20mm,top=20mm,bottom=20mm]{geometry}
+\title{Topology in Condended Matter Physics}
+
+\author{Roberto Menta}
+
+\begin{document}
+\maketitle
+\section{Barry phase}
+La meccanica quantistica ci dice che  se conosco lo stato $\vert \psi \rangle$ di un sistema quantistico allora sono a conoscenza anche della sua evoluzione temporale $U(t) = e^{-i \mathcal{H} t / \hbar}$ dove $H$ è l'Hamiltoniana che descrive la dinamica del sistema.  Possiamo quindi scrivere che 
+\[
+\vert \psi(\vec{r},t)  \rangle = e^{-i \mathcal{H} t / \hbar} \vert \psi(\vec{r}) \rangle\] 
+L'operatore di evoluzione temporale non contribuisce alla densità di probabilità ossia al modulo quadro dello stato.  Di fatto è una fase detta \emph{fase dinamica}. \\ \\ 
+Consideriamo una Hamiltoniana variabile temporalmente in modo adiabatico dipendente da $\vec{r}(t) = (r_1(t),r_2(t),\ldots)$ e in generale da una serie di parametri esterni (flusso magnetico, campo elettrico, etc...).  Consideriamo un cammino $\mathcal{C}$ nello spazio dei parametri $r_i(t)$ i quali vengono variati lentamente con il tempo.  Si introduce una base ortonormale \emph{istantanea} $\{\vert n(\vec{r}(t)) \rangle \}$ di autostati della Hamiltoniana $\mathcal{H}(\vec{r}(t))$ :
+\[
+\mathcal{H}(\vec{r}) \vert n(\vec{r}) \rangle = \varepsilon_n(\vec{r}) \vert n(\vec{r}) \rangle.
+\]
+Questa equazione determina gli stati di base $\{\vert n(\vec{r}(t)) \rangle \}$ a meno di un fattore di fase.  \'E noto infatti che un qualunque vettore nello spazio di Hilbert degli stati è detto \emph{raggio} in poiché è definibile sempre a meno di un fattore $e^{i\alpha}$ ininfluente quando se ne fa il modulo quadro. Una possibile scelta per la fase è dettata dalla scelta di gauge.  Possiamo richiedere che la fase di ogni vettore di base sia differenziabile e monodroma lungo il cammino $\mathcal{C}$.  \\ \\
+Ammettiamo che il sistema quantistico sia inizialmente preparato in uno stato puro $\vert n(\vec{r}(0)) \rangle$, autostato della Hamiltoniana istantanea $\mathcal{H}(\vec{r}(0))$.  Ora, variamo lentamente $\vec{r}(t)$ lungo il cammino $\mathcal{C}$,  lo stato iniziale evolverà con $\mathcal{H}(\vec{r})$ e instante per istante lo stato $\vert n(\vec{r}(t + dt)) \rangle$ rimarrà autostato della Hamiltoniana allo stesso tempo $t+dt$. Questo risultato deriva dal teorema adiabatico della meccanica quantistica.  La domanda che ci poniamo è: cosa succede alla fase? Ridefiniamo lo stato di base come 
+\[\vert \psi_n(t) \rangle = e^{-i \theta(t)} \vert n(\vec{r}(t)) \rangle\]
+La fase $\theta(t)$ non può far zero in quanto oltre all'ipotesi dell'esistenza di una ulteriore fase \emph{geometrica}, deve contenere il contributo all'energia a cui è associato lo stato. Consideriamo l'evoluzione dinamica del sistema dettata dell'equazione di Schr\"odinger,
+\[
+\mathcal{H}(\vec{r}) \vert \psi_n(t) \rangle = i \hbar \dfrac{\partial}{\partial t} \vert \psi_n(t) \rangle
+\] che in termini di $\vert n(\vec{r}) \rangle$ :
+\[
+\varepsilon_n(\vec{r}(t)) \vert n(\vec{r}(t)) \rangle = \left( \hbar \dot{ \theta}(t) + i \hbar  \dfrac{\partial}{\partial t} \right)  \vert n(\vec{r}(t)) \rangle .
+\]
+Prendiamo adesso il prodotto scalare con il bra $\langle n(\vec{r}(t)) \vert$ e assumiamo che il vettore di stato sia normalizzato ad $1$. Si ottiene 
+\[\
+varepsilon_n(\vec{r}(t)) = \hbar \dot{\theta}(t) + \hbar i \langle n(\vec{r}(t)) \vert \partial_t \vert n(\vec{r}(t)) \rangle
+\]
+da cui, risolvendo per $\theta(t)$ si ottiene 
+\[
+\theta(t) = \dfrac{1}{\hbar} \int_0^t \varepsilon_n(\vec{r}(t')) dt' - i \int_0^t \langle n(\vec{r}(t')) \vert \partial_{t'} \vert n(\vec{r}(t')) \rangle dt'
+\]
+dove il primo contributo è la conosciuta \emph{fase dinamica} mentre (meno) il secondo contributo è la \emph{fase di Berry}.  In maniere più compatta abbiamo ottenuto che 
+\[
+\vert \psi_n(t) \rangle = \exp\left[-\dfrac{i}{\hbar} \int_0^t \varepsilon_n(\vec{r}(t')) dt' \right] \exp(i\gamma_n) \vert n(\vec{r}(t)) \rangle
+\] 
+dove $\gamma_n$ è la \emph{Berry phase},
+\[
+\gamma_n = i \int_0^t \langle n(\vec{r}(t')) \vert \partial_{t'} \vert n(\vec{r}(t')) \rangle dt'
+\]
+Questo contributo di fase discende dal fatto che gli stati al tempo $t$ e al tempo $t+dt$ non sono identici. Possiamo rimuovere la dipendenza dal tempo dall'espressione precedente.  Consideriamo il cammino nello spazio dei parametri $\mathcal{C}$,  la fine del cammino corrisponde al tempo $\tilde{t}$. Si ha che 
+\[
+\gamma_n = i \int_0^{\tilde{t}} \langle n(\vec{r}(t')) \vert \nabla_{\vec{r}} \vert n(\vec{r}(t')) \rangle \dfrac{d\vec{r}}{dt'} dt'\] da cui
+\[
+\boxed{
+\gamma_n = i \int_{\mathcal{C}} \langle n(\vec{r}) \vert \nabla_{\vec{r}} \vert n(\vec{r})\rangle d\vec{r}
+}
+\]
+In analogia con il trasporto elettrico in un campo elettromagnetico possiamo definire la \emph{connessione di Berry} (detto anche potenziale vettore di Berry),
+\[
+\vec{A}_n(\vec{r}) = i \langle n(\vec{r}) \vert \nabla_{\vec{r}} \vert n(\vec{r})\rangle, \ \ \ \ \ \ \ \ \ \ \ \ \gamma_n = \int_{\mathcal{C}} \vec{A}_n(\vec{r}) d\vec{r}
+\]
+La fase di Berry è reale infatti 
+\[
+\gamma_n^* = -i \int_{\mathcal{C}} -  \langle n(\vec{r}) \vert \nabla_{\vec{r}} \vert n(\vec{r})\rangle d\vec{r} = \gamma_n
+\] 
+avendo usato che $ \langle n(\vec{r}) \vert \nabla_{\vec{r}} \vert n(\vec{r})\rangle = -  \langle n(\vec{r}) \vert \nabla_{\vec{r}} \vert n(\vec{r})\rangle^*$.  La $i$ davanti all'integrale rende reale la fase di Berry in quanto anche l'argomento dell'integrale è immaginario. Il fatto che $\gamma_n \in \mathbb{R}$ significa che la fase di Berry non caratterizza un decadimento.
+\[
+\gamma_n = - \Im \int_{\mathcal{C}} \langle n(\vec{r}) \vert \nabla_{\vec{r}} \vert n(\vec{r})\rangle d\vec{r}.
+\]
+La connessione di Berry $\vec{A}_n(t)$ è dipendente dalla scelta di gauge che facciamo.  Consideriamo, per esempio, la trasformazione $\vert n(\vec{r}) \rangle \to e^{i \Lambda(\vec{r})} \vert n(\vec{r}) \rangle$ dove $\Lambda(\vec{r})$ è una funzione differenziabile infinite volte e a singolo valore.  Allora, il potenziale vettore trasforma come ($\langle n(\vec{r}) \vert \to e^{-i \Lambda(\vec{r})} \langle n(\vec{r}) \vert$) : 
+\[
+\begin{array}{rlc}
+\vec{A}_n(\vec{r}) & \to i e^{-i \Lambda(\vec{r})} \left( \langle n(\vec{r}) \vert i \nabla_{\vec{r}} \Lambda(\vec{r}) e^{i \Lambda(\vec{r})} \vert n(\vec{r})\rangle + \langle n(\vec{r}) \vert e^{i \Lambda(\vec{r})} \nabla_{\vec{r}} \vert n(\vec{r})\rangle \right) \\ \\ &= \vec{A}_n(\vec{r}) - \nabla_{\vec{r}} \Lambda(\vec{r})
+\end{array}
+\]
+Ossia trasforma come ci si aspetta per trasformazioni di gauge.  Una conseguenza della buona trasformabilità sotto il gruppo di gauge è che la fase di Berry cambia in un periodo $\tilde{t}$ infatti
+\[
+\Delta \gamma_n = - \int_{\mathcal{C}} \nabla_{\vec{r}} \Lambda(\vec{r}) d\vec{r} = \Lambda(\vec{r}(0)) - \Lambda(\vec{r}(\tilde{t})).
+\]
+Dopo la rivoluzionaria scoperta di Berry, molti fisici pensavano che attraverso una scelta appropriata di gauge sarebbe stato possibile eliminare la fase $\gamma_n$.  In realtà non è così. La fase di Berry ha una natura geometrico-fondamentale e non è eliminabile per scelta di gauge. \\ \\ 
+Consideriamo un cammino chiuso $\mathcal{K}$, ciò significa che $\vec{r}(0) = \vec{r}(\tilde{t})$. Questo significa che dopo un tempo pari al periodo $\tilde{t}$, la base di autostati della Hamiltoniana $\mathcal{H}$ torna ad essere la stessa ossia $\vert n(\vec{r}(0)) \rangle = \vert n(\vec{r}(\tilde{t})) \rangle$. Quest'ultima condizione è invariante sotto trasformazioni di gauge : 
+\[
+e^{i\Lambda(\vec{r}(0))}\vert n(\vec{r}(0)) \rangle = e^{i\Lambda(\vec{r}(\tilde{t}))}\vert n(\vec{r}(\tilde{t})) \rangle = e^{i\Lambda(\vec{r}(0))}\vert n(\vec{r}(\tilde{t})) \rangle 
+\]
+\
+\[
+\ \ \ \ \ \Rightarrow \ \ \ \ \ \boxed{\Lambda(\vec{r}(\tilde{t})) - \Lambda(\vec{r}(0)) = 2\pi m \ , \ \ \ \ \ \ m \in \mathbb{Z}}
+\]
+La fase di Berry non può essere cancellata in una evoluzione adiabatica lungo un percorso $\mathcal{K}$ chiuso nello spazio dei parametri ! L'unico modo per cancellare la fase è che la differenza sia multiplo intero di $2\pi$.  Dunque,  in generale, la fase di Berry è eliminabile se consideriamo cammini $\mathcal{C}$ non chiusi, è invece di natura fondamentale, \emph{invariante di gauge} e indipendente dalla dipendenza temporale dei parametri $\vec{r}(t)$,  se consideriamo cammini chiusi $\mathcal{K}$.  
+\[
+\gamma_n = \oint_{\mathcal{K}} \vec{A}_n(\vec{r}) d\vec{r} 
+\]
+In quest'ultimo caso possiamo utilizzare il teorema di Stokes :
+\[ 
+\begin{array}{rlc}
+\gamma_n &= \displaystyle - \Im \oint_{\mathcal{K}} d\vec{r} \langle n(\vec{r}) \vert \nabla \vert n(\vec{r})\rangle  =  - \Im \oint_{\mathcal{KK}} d\vec{S}  \cdot \left( \nabla \wedge \langle n(\vec{r}) \vert \nabla \vert n(\vec{r})\rangle \right) \\ \\ 
+&= \displaystyle - \Im \oint_{\mathcal{KK}} dS_i \epsilon^{ijk}  \nabla_j  \langle n(\vec{r}) \vert \nabla_k \vert n(\vec{r})\rangle \\ \\ 
+&= \displaystyle - \Im \oint_{\mathcal{KK}} d\vec{S}  \cdot \left(  \langle \nabla n(\vec{r}) \vert \wedge \vert \nabla n(\vec{r})\rangle \right)
+\end{array}
+\]
+dove $\mathcal{K} = \partial \mathcal{KK}$ e $\langle \nabla n(\vec{r}) \vert \wedge \vert \nabla n(\vec{r})\rangle$ è la \emph{curvatura di Berry}. In particolare 
+\[
+F_jk = \langle \nabla_j n(\vec{r}) \vert \nabla_k n(\vec{r})\rangle - \langle \nabla_k n(\vec{r}) \vert \nabla_j n(\vec{r})\rangle
+\]
+è la curvatura di Berry, in analogia con il campo magnetico (rotore del potenziale vettore).
+\end{document}
