@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  26 NOV 2021 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  26 NOV 2021 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,29 +736,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for U+bbold on input line 8
-6.
+7.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./topology.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `topology.out' has not changed.
 (rerunfilecheck)             Checksum: 5BB716F149F701A928E3F2E829747521;46.
  ) 
 Here is how much of TeX's memory you used:
- 12787 strings out of 480608
- 199735 string characters out of 5903630
+ 12793 strings out of 480608
+ 199793 string characters out of 5903630
  545364 words of memory out of 5000000
  28356 multiletter control sequences out of 15000+600000
- 573297 words of font info for 77 fonts, out of 8000000 for 9000
+ 573546 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,8n,48p,793b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -779,7 +779,7 @@ lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><
 /texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on topology.pdf (3 pages, 225496 bytes).
+Output written on topology.pdf (3 pages, 225860 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
