@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  26 NOV 2021 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  8 DEC 2021 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,7 +413,17 @@ s
 \f@nch@O@olf=\skip66
 \f@nch@O@orf=\skip67
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/multimedia.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/simplewick/simplewick.sty
+Package: simplewick 2007/11/23 v1.2a
+
+Package: simplewick v1.2a (2007/11/23)
+\swb@xone=\box50
+\swb@xtwo=\box51
+\swb@xthree=\box52
+\swb@xfour=\box53
+\swdimen@ne=\dimen162
+\swdimentw@=\dimen163
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/multimedia.sty
 Package: multimedia 2012/05/02 ver 0.02
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
@@ -446,8 +456,8 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count284
 \calc@Bcount=\count285
-\calc@Adimen=\dimen162
-\calc@Bdimen=\dimen163
+\calc@Adimen=\dimen164
+\calc@Bdimen=\dimen165
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
@@ -474,7 +484,7 @@ Package: expl3 2020-03-06 L3 programming layer (loader)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count288
-\l__pdf_internal_box=\box50
+\l__pdf_internal_box=\box54
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.s
 ty
 Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
@@ -487,10 +497,10 @@ atures
 Package: ocgbase 2019/11/04 v0.17 support package for ocgx2.sty
 \g_ocgbase_nd_int=\count291
 )
-\@anim@box=\box51
-\@anim@measbox=\box52
-\@anim@tmpdima=\dimen164
-\@anim@tmpdimb=\dimen165
+\@anim@box=\box55
+\@anim@measbox=\box56
+\@anim@tmpdima=\dimen166
+\@anim@tmpdimb=\dimen167
 \@anim@num=\count292
 \@anim@curframe=\count293
 \@anim@curframe@zb=\count294
@@ -507,23 +517,23 @@ Package: ocgbase 2019/11/04 v0.17 support package for ocgx2.sty
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen166
-\lightrulewidth=\dimen167
-\cmidrulewidth=\dimen168
-\belowrulesep=\dimen169
-\belowbottomsep=\dimen170
-\aboverulesep=\dimen171
-\abovetopsep=\dimen172
-\cmidrulesep=\dimen173
-\cmidrulekern=\dimen174
-\defaultaddspace=\dimen175
+\heavyrulewidth=\dimen168
+\lightrulewidth=\dimen169
+\cmidrulewidth=\dimen170
+\belowrulesep=\dimen171
+\belowbottomsep=\dimen172
+\aboverulesep=\dimen173
+\abovetopsep=\dimen174
+\cmidrulesep=\dimen175
+\cmidrulekern=\dimen176
+\defaultaddspace=\dimen177
 \@cmidla=\count304
 \@cmidlb=\count305
-\@aboverulesep=\dimen176
-\@belowrulesep=\dimen177
+\@aboverulesep=\dimen178
+\@belowrulesep=\dimen179
 \@thisruleclass=\count306
 \@lastruleclass=\count307
-\@thisrulewidth=\dimen178
+\@thisrulewidth=\dimen180
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -534,42 +544,42 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count308
 \Gm@cntv=\count309
 \c@Gm@tempcnt=\count310
-\Gm@bindingoffset=\dimen179
-\Gm@wd@mp=\dimen180
-\Gm@odd@mp=\dimen181
-\Gm@even@mp=\dimen182
-\Gm@layoutwidth=\dimen183
-\Gm@layoutheight=\dimen184
-\Gm@layouthoffset=\dimen185
-\Gm@layoutvoffset=\dimen186
+\Gm@bindingoffset=\dimen181
+\Gm@wd@mp=\dimen182
+\Gm@odd@mp=\dimen183
+\Gm@even@mp=\dimen184
+\Gm@layoutwidth=\dimen185
+\Gm@layoutheight=\dimen186
+\Gm@layouthoffset=\dimen187
+\Gm@layoutvoffset=\dimen188
 \Gm@dimlist=\toks29
 )
 (./topology.aux)
 \openout1 = `topology.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-3.
+4.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \it@ocap on input line 33.
-LaTeX Info: Redefining \it@ccap on input line 33.
+LaTeX Info: Redefining \it@ocap on input line 34.
+LaTeX Info: Redefining \it@ccap on input line 34.
 
 
 File italian.ldf warning: 
@@ -577,18 +587,18 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 33.
+italian.ldf    on input line 34.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count311
-\scratchdimen=\dimen187
-\scratchbox=\box53
+\scratchdimen=\dimen189
+\scratchbox=\box57
 \nofMPsegments=\count312
 \nofMParguments=\count313
 \everyMPshowfont=\toks30
 \MPscratchCnt=\count314
-\MPscratchDim=\dimen188
+\MPscratchDim=\dimen190
 \MPnumerator=\count315
 \makeMPintoPDFobject=\count316
 \everyMPtoPDFconversion=\toks31
@@ -606,14 +616,14 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 33.
+LaTeX Info: Redefining \microtypecontext on input line 34.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 33.
+LaTeX Info: Redefining \showhyphens on input line 34.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -622,8 +632,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 33.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 34.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -637,9 +647,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (./topology.out) (./topology.out)
 \@outlinefile=\write3
 \openout3 = `topology.out'.
@@ -680,29 +690,29 @@ LaTeX Info: Redefining \nameref on input line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-5.
+6.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-35.
+36.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-35.
+36.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 35.
+(Font)              <12> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 35.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(Font)              <6> on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -711,7 +721,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -720,15 +730,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 36.
+(./topology.toc)
+\tf@toc=\write4
+\openout4 = `topology.toc'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 38.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
@@ -736,31 +750,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for U+bbold on input line 8
-7.
+9.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./topology.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `topology.out' has not changed.
-(rerunfilecheck)             Checksum: 5BB716F149F701A928E3F2E829747521;46.
+(rerunfilecheck)             Checksum: DD82A07430BF2881DE746DC99A7D72C5;107.
  ) 
 Here is how much of TeX's memory you used:
- 12793 strings out of 480608
- 199793 string characters out of 5903630
- 545364 words of memory out of 5000000
- 28356 multiletter control sequences out of 15000+600000
- 573546 words of font info for 80 fonts, out of 8000000 for 9000
+ 12847 strings out of 480608
+ 200592 string characters out of 5903630
+ 547390 words of memory out of 5000000
+ 28390 multiletter control sequences out of 15000+600000
+ 573878 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,8n,48p,793b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,8n,48p,793b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 20/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-d
@@ -779,10 +798,10 @@ lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><
 /texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on topology.pdf (3 pages, 225860 bytes).
+Output written on topology.pdf (4 pages, 238133 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 10253 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 10261 words of extra memory for PDF output out of 12000 (max. 10000000)
 

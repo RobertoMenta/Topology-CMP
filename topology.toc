@@ -1,0 +1,4 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Barry phase}{1}{section.1}%
+\contentsline {section}{\numberline {2}Computation of Berry phase}{3}{section.2}%
